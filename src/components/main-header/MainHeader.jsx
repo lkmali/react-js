@@ -18,12 +18,12 @@ class MainHeader extends Component {
           <Row>
             <Col className='d-flex justify-content-xs-start justify-content'>
               {/* <NavbarBrand href="/" style={{ width: 380 }}>
-                                <img src="https://technavious.com/images/logo-full.png" alt="logo" className="img-fluid" />
+                                <img src="https://LKMALI.com/images/logo-full.png" alt="logo" className="img-fluid" />
                             </NavbarBrand> */}
               <Link to='/' className='pl-sm-0 ms-2 ms-sm-5 ms-lg-0'>
                 {' '}
                 <img
-                  src={env.REACT_APP_PUBLIC_URL + '/images/Technavious-logo-updated.jpg'}
+                  src={env.REACT_APP_PUBLIC_URL + '/images/LKMALI-logo-updated.jpg'}
                   alt=''
                 />{' '}
               </Link>
@@ -37,7 +37,7 @@ class MainHeader extends Component {
                     <a
                       target='_blank'
                       rel='noreferrer'
-                      href='http://www.technavious.com/contact-9'
+                      href='http://www.LKMALI.com/contact-9'
                       className='font-size-1-5 btn-link'
                     >
                       NextGenFT Demo
@@ -52,7 +52,7 @@ class MainHeader extends Component {
                     <a
                       target='_blank'
                       rel='noreferrer'
-                      href='http://www.technavious.com/contact-9'
+                      href='http://www.LKMALI.com/contact-9'
                       className='font-size-1-5 btn-link'
                     >
                       Registration

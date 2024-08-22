@@ -39,7 +39,7 @@ class SharedHeaderComponent extends Component {
           <Link to='/' className='pl-sm-0 ms-2 ms-lg-0'>
             {' '}
             <img
-              src={env.REACT_APP_PUBLIC_URL + '/images/Technavious-logo-updated.jpg'}
+              src={env.REACT_APP_PUBLIC_URL + '/images/LKMALI-logo-updated.jpg'}
               alt='logo'
             />{' '}
           </Link>

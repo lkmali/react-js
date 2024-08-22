@@ -4,14 +4,14 @@
   "private": true,
   "description": "web-portal",
   "keywords": [],
-  "author": "laxman@technavious.com",
+  "author": "laxmanasawa9312@gmail.com",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/technavious/latest-web-portal.git"
+    "url": "git+https://github.com/lkmali/react-js.git"
   },
   "bugs": {
-    "url": "https://github.com/technavious/latest-web-portal/issues"
+    "url": "https://github.com/lkmali/react-js/issues"
   },
   "main": "index.js",
   "scripts": {

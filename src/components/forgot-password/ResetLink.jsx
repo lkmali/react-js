@@ -63,7 +63,7 @@ class ForgotPasswordResetLinkComponent extends Component {
                     type='email'
                     name='email'
                     className={`form-control ${this.state.errors?.emailError ? 'is-invalid' : ''}`}
-                    placeholder='name@technavious.com'
+                    placeholder='name@LKMALI.com'
                     onChange={this.handleChange}
                     onBlur={this.handleBlur}
                   />

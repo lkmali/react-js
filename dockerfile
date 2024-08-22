@@ -1,5 +1,5 @@
 # Check out https://hub.docker.com/_/node to select a new base image
-FROM mhart/alpine-node:latest as TECHNAVIOUS_WEB_IMAGE
+FROM mhart/alpine-node:latest as LKMALI_WEB_IMAGE
 
 
 WORKDIR /usr/src/web
@@ -23,10 +23,10 @@ USER node
 WORKDIR /usr/src/web
 
 
-COPY --chown=node:node --from=TECHNAVIOUS_WEB_IMAGE /usr/src/web/pm2.json /usr/src/web/pm2.json
-COPY --chown=node:node --from=TECHNAVIOUS_WEB_IMAGE /usr/src/web/node_modules /usr/src/web/node_modules
-COPY --chown=node:node --from=TECHNAVIOUS_WEB_IMAGE /usr/src/web/build /usr/src/web/build
-COPY --chown=node:node --from=TECHNAVIOUS_WEB_IMAGE /usr/src/web/index.js /usr/src/web/index.js
+COPY --chown=node:node --from=LKMALI_WEB_IMAGE /usr/src/web/pm2.json /usr/src/web/pm2.json
+COPY --chown=node:node --from=LKMALI_WEB_IMAGE /usr/src/web/node_modules /usr/src/web/node_modules
+COPY --chown=node:node --from=LKMALI_WEB_IMAGE /usr/src/web/build /usr/src/web/build
+COPY --chown=node:node --from=LKMALI_WEB_IMAGE /usr/src/web/index.js /usr/src/web/index.js
 # Start Server
 ENTRYPOINT ./node_modules/.bin/pm2-runtime start ./pm2.json --env $NODE_ENV
 
