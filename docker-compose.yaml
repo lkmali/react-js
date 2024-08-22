@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  latest-web-portal:
+    restart: always
+    build:
+      context: ./
+      dockerfile: dockerfile
+    container_name: latest-web-portal
+    ports:
+      - "5000:5000"
+    environment:
+      - REACT_APP_PUBLIC_URL=$REACT_APP_PUBLIC_URL
+      - REACT_APP_PORT=$REACT_APP_PORT
+      - REACT_APP_BACKEND_BASE_URL=$REACT_APP_BACKEND_BASE_URL
+      - REACT_APP_GOOGLE_MAPS_API_KEY=$REACT_APP_GOOGLE_MAPS_API_KEY
+      - REACT_APP_WORKFLOW_BASE_URL=$REACT_APP_WORKFLOW_BASE_URL
+
+    volumes:
+      - server_logs:/usr/src/web/server/logs
+      - web_images:/usr/src/web/images
+
+volumes:
+  server_logs:
+  web_images:

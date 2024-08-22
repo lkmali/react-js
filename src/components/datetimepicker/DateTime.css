@@ -1,0 +1,41 @@
+/* .react-time-picker .react-time-picker__wrapper {
+    border-color: transparent;
+}
+
+.react-time-picker .react-time-picker__button {
+    display: none;
+} */
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.rc-time-picker-input {
+  border: none;
+  /* display: none; */
+  height: auto;
+  outline: none;
+  padding: 0;
+}
+
+.react-datepicker__header {
+  background-color: #186881 !important;
+  color: white !important;
+}
+
+.react-datepicker__current-month {
+  color: white;
+}
+
+.react-datepicker__day-name {
+  color: white;
+}
+
+.react-datepicker__day--selected {
+  background-color: #186881 !important;
+  color: white !important;
+}
+.rc-time-picker-panel-select-option-selected {
+  background-color: #186881 !important;
+  color: white !important;
+}

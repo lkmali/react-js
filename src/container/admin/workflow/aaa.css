@@ -1,0 +1,14 @@
+/* .react_fast_diagram_MiniControl_Default
+  .react_fast_diagram_MiniControl_Default
+  .react_fast_diagram_MiniControl_Default
+  .react_fast_diagram_MiniControl_Default: */
+
+.react_fast_diagram_MiniControl_Btn {
+  visibility: hidden;
+  display: none;
+}
+
+.form-switch .form-check-input {
+  width: 6em;
+  height: 2em;
+}

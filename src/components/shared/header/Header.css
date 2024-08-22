@@ -1,0 +1,12 @@
+.btn {
+  background-color: transparent;
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+li {
+  cursor: pointer;
+}
+.headerBoder {
+  border-bottom: 3px solid #666;
+}

@@ -1,2 +1,5 @@
-# react-js
-This is react js code repositoy
+# web-portal
+
+Development command
+
+# yarn install
